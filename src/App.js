@@ -34,11 +34,11 @@ function App() {
     communityAccess:"Community Access",
     isCommunityAccess:true,
     privateProject:"Unlimited Private Projects",
-    isPrivateProject:false,
+    isPrivateProject:true,
     phone:'Dedicated Phone Support',
-    isPhone:false,
+    isPhone:true,
     subdomain:'Free Subdomain',
-    isSubdomain:false,
+    isSubdomain:true,
     statusReport:"Monthly Status Reports",
     isReport:false
   },{
