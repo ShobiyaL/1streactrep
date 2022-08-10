@@ -65,12 +65,11 @@ function App() {
    <section className="pricing py-5">
   <div className="container">
     <div className="row">
-    {
-      data.map((elements,i)=>{
-        return <PriceCard data={elements} key={i}/>
-      })
-    }     
-
+      {
+        data.map((element,i)=>(
+          <PriceCard key={i} data={element}/>
+        ))
+      }
     </div>
   </div>
 </section>
@@ -78,3 +77,14 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+{
+  data.map((elements,i)=>{
+    return <PriceCard data={elements} key={i}/>
+  })
+}  
