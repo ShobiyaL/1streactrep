@@ -67,7 +67,7 @@ function App() {
     <div className="row">
       {
         data.map((element,i)=>(
-          <PriceCard key={i} data={element}/>
+          <PriceCard  data={element} key={i}/>
         ))
       }
     </div>
