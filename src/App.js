@@ -4,7 +4,7 @@ import PriceCard from './PriceCard';
 function App() {
   let data =[{
     plan:"Free",
-    price:0,
+    price:"0",
     user:"Single User",
     isUser:true,
     storage:"5GB Storage",
