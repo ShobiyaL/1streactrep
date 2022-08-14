@@ -1,7 +1,7 @@
 import React from 'react'
 
 function PriceCard(props) {
-    console.log(props.data);
+    
   return (
     
     <div className="col-lg-4">
